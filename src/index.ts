@@ -2,6 +2,7 @@ import Bao from "baojs";
 import { MongoClient } from "mongodb";
 import { startWeatherCron } from "./services/weather";
 import { eventsCollection } from "./mongo";
+import "saslprep";
 
 const app = new Bao();
 
